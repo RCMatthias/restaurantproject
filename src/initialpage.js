@@ -10,14 +10,12 @@ export default function initialPage()  {
     imageDiv.width="200"; 
     imageDiv.height="200";
     
-
-    aboutDiv.innerHTML="OAK voert een eigentijdse keuken waarbij inspiraties van over de hele wereld tot uiting worden gebracht in het menu. Hierbij wordt gebruik gemaakt van met name seizoens- en dagverse producten. De gerechten bestaan uit enkele ingrediënten, waarbij bepaalde verwerkingen ervoor zorgen dat elk gerecht hoog op smaak is."
-
     header.innerHTML = "Oak Restaurant: Fine Dining Experiences    "
     element.appendChild(header);
     element.appendChild(imageDiv);
     element.appendChild(aboutDiv);
     
-
     return element; 
 }
+
+import { emptyPage } from "./helpers";
